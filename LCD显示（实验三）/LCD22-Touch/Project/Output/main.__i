@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I ..\User -I ..\Libraries\STM32F0xx_StdPeriph_Driver\inc -I ..\Libraries\CMSIS\Include -I ..\Libraries\CMSIS\Device\Source -I ..\Libraries\CMSIS\Device\Include
+-I"D:\program file\KEIL\ARM\RV31\INC"
+-I"D:\program file\KEIL\ARM\CMSIS\Include"
+-I"D:\program file\KEIL\ARM\INC\ST\STM32F0xx"
+-D__UVISION_VERSION="524" -DUSE_STDPERIPH_DRIVER -DSTM32F0XX
+-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d "..\User\main.c"

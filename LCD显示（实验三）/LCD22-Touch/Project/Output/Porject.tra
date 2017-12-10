@@ -1,0 +1,48 @@
+*** Creating Trace Output File '.\Output\Porject.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f0xx_it.o"'
+### List of Objects: adding '".\output\usart.o"'
+### List of Objects: adding '".\output\lcd_lib.o"'
+### List of Objects: adding '".\output\ltm022a69b.o"'
+### List of Objects: adding '".\output\user_systick.o"'
+### List of Objects: adding '".\output\touch.o"'
+### List of Objects: adding '".\output\system_stm32f0xx.o"'
+### List of Objects: adding '".\output\stm32f0xx_gpio.o"'
+### List of Objects: adding '".\output\stm32f0xx_usart.o"'
+### List of Objects: adding '".\output\stm32f0xx_tim.o"'
+### List of Objects: adding '".\output\stm32f0xx_syscfg.o"'
+### List of Objects: adding '".\output\stm32f0xx_spi.o"'
+### List of Objects: adding '".\output\stm32f0xx_rtc.o"'
+### List of Objects: adding '".\output\stm32f0xx_i2c.o"'
+### List of Objects: adding '".\output\stm32f0xx_adc.o"'
+### List of Objects: adding '".\output\stm32f0xx_cec.o"'
+### List of Objects: adding '".\output\stm32f0xx_comp.o"'
+### List of Objects: adding '".\output\stm32f0xx_crc.o"'
+### List of Objects: adding '".\output\stm32f0xx_dac.o"'
+### List of Objects: adding '".\output\stm32f0xx_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f0xx_dma.o"'
+### List of Objects: adding '".\output\stm32f0xx_exti.o"'
+### List of Objects: adding '".\output\stm32f0xx_flash.o"'
+### List of Objects: adding '".\output\stm32f0xx_iwdg.o"'
+### List of Objects: adding '".\output\stm32f0xx_misc.o"'
+### List of Objects: adding '".\output\stm32f0xx_pwr.o"'
+### List of Objects: adding '".\output\stm32f0xx_rcc.o"'
+### List of Objects: adding '".\output\stm32f0xx_wwdg.o"'
+### List of Objects: adding '".\output\startup_stm32f0xx.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\output\main.o" ".\output\stm32f0xx_it.o" ".\output\usart.o" ".\output\lcd_lib.o" ".\output\ltm022a69b.o" ".\output\user_systick.o" ".\output\touch.o" ".\output\system_stm32f0xx.o" ".\output\stm32f0xx_gpio.o" ".\output\stm32f0xx_usart.o" ".\output\stm32f0xx_tim.o" ".\output\stm32f0xx_syscfg.o" ".\output\stm32f0xx_spi.o" ".\output\stm32f0xx_rtc.o" ".\output\stm32f0xx_i2c.o" ".\output\stm32f0xx_adc.o" ".\output\stm32f0xx_cec.o" ".\output\stm32f0xx_comp.o" ".\output\stm32f0xx_crc.o" ".\output\stm32f0xx_dac.o" ".\output\stm32f0xx_dbgmcu.o" ".\output\stm32f0xx_dma.o" ".\output\stm32f0xx_exti.o" ".\output\stm32f0xx_flash.o" ".\output\stm32f0xx_iwdg.o" ".\output\stm32f0xx_misc.o" ".\output\stm32f0xx_pwr.o" ".\output\stm32f0xx_rcc.o" ".\output\stm32f0xx_wwdg.o" ".\output\startup_stm32f0xx.o" --library_type=microlib --strict --scatter ".\Output\Porject.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\Porject.map" -o ".\Output\Porject.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Porject.axf'
+### ADS-LD Command File: '.\Output\Porject.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Porject.lnp', Handle=0x000009DC
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Porject.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
